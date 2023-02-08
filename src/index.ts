@@ -7,8 +7,8 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-app.listen(3003, () => {
-    console.log(`Servidor rodando na porta ${3003}`)
+app.listen(3004, () => {
+    console.log(`Servidor rodando na porta ${3004}`)
 })
 
 app.use("/courses", courseRouter)
